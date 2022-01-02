@@ -60,8 +60,8 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/adiciona_palavra.cpp$(ObjectSuffix) $(IntermediateDirectory)/chuta.cpp$(ObjectSuffix) $(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix) $(IntermediateDirectory)/forca.cpp$(ObjectSuffix) $(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix) $(IntermediateDirectory)/nao_enforcou.cpp$(ObjectSuffix) $(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix) $(IntermediateDirectory)/sorteia_palavra.cpp$(ObjectSuffix) $(IntermediateDirectory)/le_arquivo.cpp$(ObjectSuffix) $(IntermediateDirectory)/imprime_cabecalho.cpp$(ObjectSuffix) \
-	$(IntermediateDirectory)/letra_existe.cpp$(ObjectSuffix) $(IntermediateDirectory)/imprime_palavra.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/adiciona_palavra.cpp$(ObjectSuffix) $(IntermediateDirectory)/chuta.cpp$(ObjectSuffix) $(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix) $(IntermediateDirectory)/forca.cpp$(ObjectSuffix) $(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix) $(IntermediateDirectory)/sorteia_palavra.cpp$(ObjectSuffix) $(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix) $(IntermediateDirectory)/le_arquivo.cpp$(ObjectSuffix) $(IntermediateDirectory)/letra_existe.cpp$(ObjectSuffix) $(IntermediateDirectory)/imprime_palavra.cpp$(ObjectSuffix) \
+	
 
 
 
@@ -108,13 +108,13 @@ $(IntermediateDirectory)/chuta.cpp$(DependSuffix): chuta.cpp
 $(IntermediateDirectory)/chuta.cpp$(PreprocessSuffix): chuta.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/chuta.cpp$(PreprocessSuffix) chuta.cpp
 
-$(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix): imprime_erros.cpp $(IntermediateDirectory)/imprime_erros.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/imprime_erros.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/imprime_erros.cpp$(DependSuffix): imprime_erros.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/imprime_erros.cpp$(DependSuffix) -MM imprime_erros.cpp
+$(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix): salva_arquivo.cpp $(IntermediateDirectory)/salva_arquivo.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/salva_arquivo.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/salva_arquivo.cpp$(DependSuffix): salva_arquivo.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/salva_arquivo.cpp$(DependSuffix) -MM salva_arquivo.cpp
 
-$(IntermediateDirectory)/imprime_erros.cpp$(PreprocessSuffix): imprime_erros.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/imprime_erros.cpp$(PreprocessSuffix) imprime_erros.cpp
+$(IntermediateDirectory)/salva_arquivo.cpp$(PreprocessSuffix): salva_arquivo.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/salva_arquivo.cpp$(PreprocessSuffix) salva_arquivo.cpp
 
 $(IntermediateDirectory)/forca.cpp$(ObjectSuffix): forca.cpp $(IntermediateDirectory)/forca.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/forca.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/forca.cpp$(ObjectSuffix) $(IncludePath)
@@ -124,29 +124,13 @@ $(IntermediateDirectory)/forca.cpp$(DependSuffix): forca.cpp
 $(IntermediateDirectory)/forca.cpp$(PreprocessSuffix): forca.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/forca.cpp$(PreprocessSuffix) forca.cpp
 
-$(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix): salva_arquivo.cpp $(IntermediateDirectory)/salva_arquivo.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/salva_arquivo.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/salva_arquivo.cpp$(DependSuffix): salva_arquivo.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/salva_arquivo.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/salva_arquivo.cpp$(DependSuffix) -MM salva_arquivo.cpp
+$(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix): imprime_erros.cpp $(IntermediateDirectory)/imprime_erros.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/imprime_erros.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/imprime_erros.cpp$(DependSuffix): imprime_erros.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/imprime_erros.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/imprime_erros.cpp$(DependSuffix) -MM imprime_erros.cpp
 
-$(IntermediateDirectory)/salva_arquivo.cpp$(PreprocessSuffix): salva_arquivo.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/salva_arquivo.cpp$(PreprocessSuffix) salva_arquivo.cpp
-
-$(IntermediateDirectory)/nao_enforcou.cpp$(ObjectSuffix): nao_enforcou.cpp $(IntermediateDirectory)/nao_enforcou.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/nao_enforcou.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/nao_enforcou.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/nao_enforcou.cpp$(DependSuffix): nao_enforcou.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/nao_enforcou.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/nao_enforcou.cpp$(DependSuffix) -MM nao_enforcou.cpp
-
-$(IntermediateDirectory)/nao_enforcou.cpp$(PreprocessSuffix): nao_enforcou.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/nao_enforcou.cpp$(PreprocessSuffix) nao_enforcou.cpp
-
-$(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix): nao_acertou.cpp $(IntermediateDirectory)/nao_acertou.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/nao_acertou.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/nao_acertou.cpp$(DependSuffix): nao_acertou.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/nao_acertou.cpp$(DependSuffix) -MM nao_acertou.cpp
-
-$(IntermediateDirectory)/nao_acertou.cpp$(PreprocessSuffix): nao_acertou.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/nao_acertou.cpp$(PreprocessSuffix) nao_acertou.cpp
+$(IntermediateDirectory)/imprime_erros.cpp$(PreprocessSuffix): imprime_erros.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/imprime_erros.cpp$(PreprocessSuffix) imprime_erros.cpp
 
 $(IntermediateDirectory)/sorteia_palavra.cpp$(ObjectSuffix): sorteia_palavra.cpp $(IntermediateDirectory)/sorteia_palavra.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/sorteia_palavra.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/sorteia_palavra.cpp$(ObjectSuffix) $(IncludePath)
@@ -156,6 +140,14 @@ $(IntermediateDirectory)/sorteia_palavra.cpp$(DependSuffix): sorteia_palavra.cpp
 $(IntermediateDirectory)/sorteia_palavra.cpp$(PreprocessSuffix): sorteia_palavra.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/sorteia_palavra.cpp$(PreprocessSuffix) sorteia_palavra.cpp
 
+$(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix): nao_acertou.cpp $(IntermediateDirectory)/nao_acertou.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/nao_acertou.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/nao_acertou.cpp$(DependSuffix): nao_acertou.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/nao_acertou.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/nao_acertou.cpp$(DependSuffix) -MM nao_acertou.cpp
+
+$(IntermediateDirectory)/nao_acertou.cpp$(PreprocessSuffix): nao_acertou.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/nao_acertou.cpp$(PreprocessSuffix) nao_acertou.cpp
+
 $(IntermediateDirectory)/le_arquivo.cpp$(ObjectSuffix): le_arquivo.cpp $(IntermediateDirectory)/le_arquivo.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/le_arquivo.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/le_arquivo.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/le_arquivo.cpp$(DependSuffix): le_arquivo.cpp
@@ -163,14 +155,6 @@ $(IntermediateDirectory)/le_arquivo.cpp$(DependSuffix): le_arquivo.cpp
 
 $(IntermediateDirectory)/le_arquivo.cpp$(PreprocessSuffix): le_arquivo.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/le_arquivo.cpp$(PreprocessSuffix) le_arquivo.cpp
-
-$(IntermediateDirectory)/imprime_cabecalho.cpp$(ObjectSuffix): imprime_cabecalho.cpp $(IntermediateDirectory)/imprime_cabecalho.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/imprime_cabecalho.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/imprime_cabecalho.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/imprime_cabecalho.cpp$(DependSuffix): imprime_cabecalho.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/imprime_cabecalho.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/imprime_cabecalho.cpp$(DependSuffix) -MM imprime_cabecalho.cpp
-
-$(IntermediateDirectory)/imprime_cabecalho.cpp$(PreprocessSuffix): imprime_cabecalho.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/imprime_cabecalho.cpp$(PreprocessSuffix) imprime_cabecalho.cpp
 
 $(IntermediateDirectory)/letra_existe.cpp$(ObjectSuffix): letra_existe.cpp $(IntermediateDirectory)/letra_existe.cpp$(DependSuffix)
 	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/letra_existe.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/letra_existe.cpp$(ObjectSuffix) $(IncludePath)

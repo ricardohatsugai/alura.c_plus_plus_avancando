@@ -14,7 +14,6 @@
     <File Name="salva_arquivo.cpp"/>
     <File Name="palavras.txt"/>
     <File Name="nao_enforcou.hpp"/>
-    <File Name="nao_enforcou.cpp"/>
     <File Name="nao_acertou.hpp"/>
     <File Name="nao_acertou.cpp"/>
     <File Name="letra_existe.hpp"/>
@@ -26,7 +25,6 @@
     <File Name="imprime_erros.hpp"/>
     <File Name="imprime_erros.cpp"/>
     <File Name="imprime_cabecalho.hpp"/>
-    <File Name="imprime_cabecalho.cpp"/>
     <File Name="forca.txt"/>
     <File Name="forca.project"/>
     <File Name="forca.mk"/>
