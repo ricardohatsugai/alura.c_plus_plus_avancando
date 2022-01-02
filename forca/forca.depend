@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/adiciona_palavra.cpp
+	<iostream>
+	<vector>
+	<string>
+	"le_arquivo.hpp"
+	"salva_arquivo.hpp"
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/le_arquivo.hpp
+	<vector>
+	<string>
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/salva_arquivo.hpp
+	<vector>
+	<string>
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/chuta.cpp
+	<iostream>
+	<vector>
+	<map>
+	"letra_existe.hpp"
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/letra_existe.hpp
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/forca.cpp
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	<fstream>
+	<ctime>
+	<cstdlib>
+	"letra_existe.hpp"
+	"imprime_cabecalho.hpp"
+	"le_arquivo.hpp"
+	"sorteia_palavra.hpp"
+	"nao_enforcou.hpp"
+	"imprime_erros.hpp"
+	"imprime_palavra.hpp"
+	"chuta.hpp"
+	"adiciona_palavra.hpp"
+	"nao_acertou.hpp"
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/imprime_cabecalho.hpp
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/sorteia_palavra.hpp
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/nao_enforcou.hpp
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/imprime_erros.hpp
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/imprime_palavra.hpp
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/chuta.hpp
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/adiciona_palavra.hpp
+
+1641090339 /opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/nao_acertou.hpp
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/imprime_cabecalho.cpp
+	<iostream>
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/imprime_erros.cpp
+	<vector>
+	<iostream>
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/imprime_palavra.cpp
+	<iostream>
+	<string>
+	<map>
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/le_arquivo.cpp
+	<iostream>
+	<fstream>
+	"le_arquivo.hpp"
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/letra_existe.cpp
+	<string>
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/nao_acertou.cpp
+	<string>
+	<map>
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/nao_enforcou.cpp
+	<vector>
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/salva_arquivo.cpp
+	<iostream>
+	<fstream>
+	"salva_arquivo.hpp"
+
+1641090339 source:/opt/lampp/htdocs/alura_c_plus_plus_avancando/forca/sorteia_palavra.cpp
+	<vector>
+	<string>
+	"le_arquivo.hpp"
+
