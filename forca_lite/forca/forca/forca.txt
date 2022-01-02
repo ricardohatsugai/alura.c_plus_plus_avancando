@@ -1,1 +1,1 @@
-./Debug/adiciona_palavra.cpp.o ./Debug/chuta.cpp.o ./Debug/imprime_erros.cpp.o ./Debug/forca.cpp.o ./Debug/salva_arquivo.cpp.o ./Debug/nao_enforcou.cpp.o ./Debug/nao_acertou.cpp.o ./Debug/sorteia_palavra.cpp.o ./Debug/le_arquivo.cpp.o ./Debug/letra_existe.cpp.o ./Debug/imprime_palavra.cpp.o
+./Debug/adiciona_palavra.cpp.o ./Debug/chuta.cpp.o ./Debug/imprime_erros.cpp.o ./Debug/forca.cpp.o ./Debug/salva_arquivo.cpp.o ./Debug/nao_acertou.cpp.o ./Debug/sorteia_palavra.cpp.o ./Debug/le_arquivo.cpp.o ./Debug/letra_existe.cpp.o ./Debug/imprime_palavra.cpp.o

@@ -22,20 +22,19 @@ vector<char> chutes_errados;
 int main () {
     imprime_cabecalho();
 
-    le_arquivo();
-    sorteia_palavra();
+    palavra_secreta = sorteia_palavra();
 
-    while(nao_acertou() && nao_enforcou()){
-        imprime_erros();
+    while(nao_acertou(palavra_secreta, chutou) && chutes_errados.size() < 5){
+        imprime_erros(chutes_errados);
 
-        imprime_palavra();
+        imprime_palavra(palavra_secreta, chutou);
 
-        chuta();
+        chuta(&chutou, &chutes_errados);
     }
 
     cout << "Fim de jogo!" << endl;
     cout << "A palavra secreta era: " << palavra_secreta << endl;
-    if(nao_acertou()){
+    if(nao_acertou(palavra_secreta, chutou)){
         cout << "Você perdeu! Tente novamente!" << endl;
     }
     else{
