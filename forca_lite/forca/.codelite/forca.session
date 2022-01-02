@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/forca.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="8" Name="CurrentLine"/>
+      <int Value="4" Name="FirstVisibleLine"/>
+      <int Value="22" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/imprime_cabecalho.cpp" Name="FileName"/>
+      <wxString Value="/home/ricardo/www/alura_c_plus_plus_avancando/forca_lite/forca/forca/imprime_cabecalho.hpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
