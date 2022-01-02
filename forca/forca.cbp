@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="forca" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/forca" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/forca" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="adiciona_palavra.cpp" />
+		<Unit filename="adiciona_palavra.hpp" />
+		<Unit filename="chuta.cpp" />
+		<Unit filename="chuta.hpp" />
+		<Unit filename="forca.cpp" />
+		<Unit filename="imprime_cabecalho.cpp" />
+		<Unit filename="imprime_cabecalho.hpp" />
+		<Unit filename="imprime_erros.cpp" />
+		<Unit filename="imprime_erros.hpp" />
+		<Unit filename="imprime_palavra.cpp" />
+		<Unit filename="imprime_palavra.hpp" />
+		<Unit filename="le_arquivo.cpp" />
+		<Unit filename="le_arquivo.hpp" />
+		<Unit filename="letra_existe.cpp" />
+		<Unit filename="letra_existe.hpp" />
+		<Unit filename="nao_acertou.cpp" />
+		<Unit filename="nao_acertou.hpp" />
+		<Unit filename="nao_enforcou.cpp" />
+		<Unit filename="nao_enforcou.hpp" />
+		<Unit filename="salva_arquivo.cpp" />
+		<Unit filename="salva_arquivo.hpp" />
+		<Unit filename="sorteia_palavra.cpp" />
+		<Unit filename="sorteia_palavra.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
