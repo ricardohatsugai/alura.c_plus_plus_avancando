@@ -1,7 +1,8 @@
 #include <vector>
 #include "le_arquivo.hpp"
 
-std:: string sorteia_palavra(){
+std::string sorteia_palavra()
+{
     std::vector<std::string> palavras = le_arquivo();
 
     srand(time(NULL));
